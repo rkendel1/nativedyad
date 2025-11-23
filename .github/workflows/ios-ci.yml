@@ -34,6 +34,9 @@ jobs:
       - name: Install SwiftLint
         run: brew install swiftlint
       
+      - name: Install xcpretty
+        run: gem install xcpretty
+      
       - name: Run SwiftLint
         working-directory: ios/DyadSampleApp
         run: |
