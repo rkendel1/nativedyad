@@ -102,3 +102,43 @@ sqlite.db
 userData/
 .env.local
 .idea/
+
+# iOS / Xcode
+## Build generated
+ios/**/build/
+ios/**/DerivedData/
+ios/**/*.pbxuser
+ios/**/*.mode1v3
+ios/**/*.mode2v3
+ios/**/*.perspectivev3
+ios/**/*.xccheckout
+ios/**/*.moved-aside
+ios/**/*.xcuserstate
+ios/**/*.xcscmblueprint
+ios/**/*.hmap
+ios/**/*.ipa
+ios/**/*.dSYM.zip
+ios/**/*.dSYM
+
+## Xcode workspace and personal settings
+ios/**/*.xcworkspace/!default.xcworkspace
+ios/**/xcuserdata/
+
+## Swift Package Manager
+ios/**/.swiftpm/
+ios/**/.build/
+ios/**/Package.resolved
+
+## CocoaPods
+ios/**/Pods/
+ios/**/Podfile.lock
+
+## Carthage
+ios/**/Carthage/Build/
+ios/**/Carthage/Checkouts/
+
+## fastlane
+ios/**/fastlane/report.xml
+ios/**/fastlane/Preview.html
+ios/**/fastlane/screenshots/**/*.png
+ios/**/fastlane/test_output
