@@ -13,10 +13,6 @@ opt_in_rules:
   - vertical_whitespace_closing_braces
   - vertical_whitespace_opening_braces
 
-# Rules to disable
-disabled_rules:
-  - trailing_whitespace
-
 # File options
 excluded:
   - .build
